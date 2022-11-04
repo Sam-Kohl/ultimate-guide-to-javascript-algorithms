@@ -6,9 +6,8 @@ E.g reverseString('algorithms') // should return 'smhtirogla'
 
 
 function reverseString(text) {
-    // Code goes here
+    return [...text].reduce((a,c) => c + a, '')
 }
-
 
 
 module.exports = reverseString

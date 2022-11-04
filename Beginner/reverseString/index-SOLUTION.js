@@ -46,3 +46,5 @@ function reverseString(text) {
 function reverseString(text) {
     return text.split("").reduce((acc, char) => char + acc);
 }
+
+// module.exports = reverseString
